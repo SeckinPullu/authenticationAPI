@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AuthenticationAPI</name>
+    </assembly>
+    <members>
+        <member name="M:AuthenticationAPI.Controllers.UserController.Authenticate(AuthenticationAPI.Models.AuthRequest)">
+            <summary>
+            username = "test1" ,  password ="1234"
+            </summary>
+        </member>
+        <member name="M:AuthenticationAPI.Controllers.UserController.RevokeToken(AuthenticationAPI.Models.RefreshTokenRequest)">
+            <summary>
+            Authorization Key gereklidir , jwtTokeni Authorization butonuna tıklayıp inputa gösterildiği şekilde 
+            girerek login olun ve test edin
+            </summary>
+        </member>
+        <member name="M:AuthenticationAPI.Controllers.WeatherForecastController.Get">
+            <summary>
+            Authorization Key gereklidir , jwtTokeni Authorization butonuna tıklayıp inputa gösterildiği şekilde 
+            girerek login olun ve test edin
+            </summary>
+        </member>
+    </members>
+</doc>
